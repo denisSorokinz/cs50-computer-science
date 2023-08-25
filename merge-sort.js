@@ -85,7 +85,7 @@ leftHalf = 0 1 2 3
 rightHalf = 4 5 6 7
 */
 
-const arr = [4, 3, 7, 8, 9, 1, 10, 5];
+const arr = [4, 3, 7, 8, 9, 1, 10];
 // const arr = [...new Array(10)].map((item) => Math.round(Math.random() * 10));
 
 console.log(arr, recursiveMergeSort(arr));
